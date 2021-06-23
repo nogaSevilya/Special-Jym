@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="questionnaire-height.css" />
+
+    <script>
+        selected="cm"
+        function chooseFt()
+        {
+            if (document.getElementById("ft").src.endsWith('whiteHalfCircleLeft.png'))
+            {
+                document.getElementById("ft").src=document.getElementById("ft").src.replace('whiteHalfCircleLeft', 'purpleHalfCircleLeft')
+                document.getElementById("cm").src=document.getElementById("cm").src.replace('purpleHalfCircleRight', 'whiteHalfCircleRight')
+                document.getElementById("ftText").style.color="#FFFFFF"
+                document.getElementById("ftText").style.opacity="1"
+                document.getElementById("cmText").style.color="#7B6AD5"
+                document.getElementById("cmText").style.opacity="0.3"
+                document.getElementById("ft").style.background= "#7B6AD5";
+                document.getElementById("cm").style.background= "#FFFFFF";
+
+
+            }
+            selected="ft"
+        }
+        function chooseCm()
+        {
+            if (document.getElementById("cm").src.endsWith('whiteHalfCircleRight.png'))
+            {
+                document.getElementById("ft").src=document.getElementById("ft").src.replace('purpleHalfCircleLeft', 'whiteHalfCircleLeft')
+                document.getElementById("cm").src=document.getElementById("cm").src.replace('whiteHalfCircleRight', 'purpleHalfCircleRight')
+                document.getElementById("ftText").style.color="#7B6AD5"
+                document.getElementById("ftText").style.opacity="0.3"
+                document.getElementById("cmText").style.color="#FFFFFF"
+                document.getElementById("cmText").style.opacity="1"
+                document.getElementById("ft").style.background= "#FFFFFF";
+                document.getElementById("cm").style.background= "#7B6AD5";
+            }
+            selected="cm"
+        }
+        function nextScreen()
+        {
+            if (document.getElementById("height").value=="")
+            {
+                alert("בחר תשובה")
+            }
+            else
+            {
+                window.location.href="/selectHeight?height="+document.getElementById("height").value+"&selected="+selected
+            }
+        }
+    </script>
+</head>
+<body>
+    <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet'>
+    <div class="text" >?אפשר לדעת מה הגובה שלך</div>
+    <img src="images/Jimi3.png" class="Jimi" />
+    <img src="images/whiteHalfCircleLeft.png" id="ft" class="ft" onclick="chooseFt()"/>
+    <img src="images/whiteHalfCircleRight.png" id="cm" class="cm" onclick="chooseCm()"/>
+    <div class="cmText" id="cmText" >ס"מ</div>
+    <div class="ftText" id="ftText" >פיט</div>
+    <form action="/selectHeight" method="post" enctype="multipart/form-data">
+        <input type="text" id="height" name="text" class="textbox"><br><br>
+    </form>
+    <div class="explanation" >המידע הזה חשוב בשביל לבנות תכנית מותאמת בשבילך</div>
+
+    <img src="images/nextQuestion.png" class="nextQuestion" id="button" onclick="nextScreen()"/>
+
+</body>
+</html>

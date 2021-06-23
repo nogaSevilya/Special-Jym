@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="questionnaire-painFront.css" />
+    <script>
+        selectedRightLeg=""
+        selectedLeftLeg=""
+        selectedRightHand=""
+        selectedLeftHand=""
+        selectedNeck=""
+        selectedAbs=""
+        selectedBack=""
+
+        function chooseBack()
+        {
+            if (document.getElementById("back").src.endsWith('whiteHalfCircleLeft.png'))
+            {
+                document.getElementById("back").src=document.getElementById("back").src.replace('whiteHalfCircleLeft', 'purpleHalfCircleLeft')
+                document.getElementById("front").src=document.getElementById("front").src.replace('purpleHalfCircleRight', 'whiteHalfCircleRight')
+                document.getElementById("backText").style.color="#FFFFFF"
+                document.getElementById("backText").style.opacity="1"
+                document.getElementById("frontText").style.color="#7B6AD5"
+                document.getElementById("frontText").style.opacity="0.3"
+                document.getElementById("back").style.background= "#7B6AD5";
+                document.getElementById("front").style.background= "#FFFFFF";
+                document.getElementById("head").src=document.getElementById("head").src.replace('head', 'head2')
+                document.getElementById("abs").src=document.getElementById("abs").src.replace('abs', 'back')
+                document.getElementById("rightLeg").src=document.getElementById("rightLeg").src.replace('rightLeg', 'rightLeg2')
+                document.getElementById("leftLeg").src=document.getElementById("leftLeg").src.replace('leftLeg', 'leftLeg2')
+                document.getElementById("rightHand").src=document.getElementById("rightHand").src.replace('rightHand', 'rightHand2')
+                document.getElementById("leftHand").src=document.getElementById("leftHand").src.replace('leftHand', 'leftHand2')
+
+            }
+        }
+        function chooseFront()
+        {
+            if (document.getElementById("front").src.endsWith('whiteHalfCircleRight.png'))
+            {
+                document.getElementById("back").src=document.getElementById("back").src.replace('purpleHalfCircleLeft', 'whiteHalfCircleLeft')
+                document.getElementById("front").src=document.getElementById("front").src.replace('whiteHalfCircleRight', 'purpleHalfCircleRight')
+                document.getElementById("backText").style.color="#7B6AD5"
+                document.getElementById("backText").style.opacity="0.3"
+                document.getElementById("frontText").style.color="#FFFFFF"
+                document.getElementById("frontText").style.opacity="1"
+                document.getElementById("back").style.background= "#FFFFFF";
+                document.getElementById("front").style.background= "#7B6AD5";
+                document.getElementById("head").src=document.getElementById("head").src.replace('head2', 'head')
+                document.getElementById("abs").src=document.getElementById("abs").src.replace('back', 'abs')
+                document.getElementById("rightLeg").src=document.getElementById("rightLeg").src.replace('rightLeg2', 'rightLeg')
+                document.getElementById("leftLeg").src=document.getElementById("leftLeg").src.replace('leftLeg2', 'leftLeg')
+                document.getElementById("rightHand").src=document.getElementById("rightHand").src.replace('rightHand2', 'rightHand')
+                document.getElementById("leftHand").src=document.getElementById("leftHand").src.replace('leftHand2', 'leftHand')
+
+            }
+        }
+        function chooseRightLeg()
+        {
+            if (document.getElementById("rightLeg").src.endsWith('rightLeg.png'))
+                selectedRightLeg="רגל"
+        }
+        function chooseLeftLeg()
+        {
+            if (document.getElementById("leftLeg").src.endsWith('leftLeg.png'))
+                selectedLeftLeg="רגל"
+        }
+        function chooseRightHand()
+        {
+            if (document.getElementById("rightHand").src.endsWith('rightHand.png'))
+                selectedRightHand="יד"
+        }
+        function chooseLeftHand()
+        {
+            if (document.getElementById("leftHand").src.endsWith('leftHand.png'))
+                selectedLeftHand="יד"
+        }
+        function chooseAbs()
+        {
+            if (document.getElementById("abs").src.endsWith('abs.png'))
+                selectedAbs="בטן"
+            if (document.getElementById("abs").src.endsWith('back.png'))
+                selectedBack="גב"
+        }
+        function chooseHead()
+        {
+            if (document.getElementById("head").src.endsWith('head.png'))
+                selectedNeck="צוואר"
+        }
+        function nextScreen()
+        {
+            window.location.href="/selectPain?rightLeg="+selectedRightLeg+"&leftLeg="+selectedLeftLeg+"&rightHand="+selectedRightHand+"&leftHand="+selectedLeftHand+"&neck="+selectedNeck+"&abs="+selectedAbs+"&back="+selectedBack
+        }
+    </script>
+</head>
+<body>
+    <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet'>
+    <div class="text" >לפני שנתחיל את האימון</div>
+    <div class="text2" >?משהו כואב לך היום</div>
+    <img src="images/Jimi3.png" class="Jimi" />
+    <img src="images/purpleHalfCircleRight.png" id="front" class="frontButton" onclick="chooseFront()"/>
+    <img src="images/whiteHalfCircleLeft.png" id="back" class="backButton" onclick="chooseBack()"/>
+    <div class="frontText" id="frontText">קדימה</div>
+    <div class="backText" id="backText">אחורה</div>
+    <img src="images/nextQuestion.png" class="next" id="button" onclick="nextScreen()"/>
+    <img src="images/rightLeg.png" id="rightLeg" class="rightLeg" onclick="chooseRightLeg()"/>
+    <img src="images/leftLeg.png" id="leftLeg" class="leftLeg" onclick="chooseLeftLeg()"/>
+    <img src="images/Jimi3.png" class="Jimi2" />
+    <img src="images/abs.png" id="abs" class="abs" onclick="chooseAbs()"/>
+    <img src="images/rightHand.png" class="rightHand" id="rightHand" onclick="chooseRightHand()"/>
+    <img src="images/leftHand.png" class="leftHand" id="leftHand" onclick="chooseLeftHand()"/>
+    <img src="images/head.png" class="head" id="head" onclick="chooseHead()"/>
+    <div class="text3" >לחצו על החלק שכואב אם לא כואב עברו</div>
+
+</body>
+</html>

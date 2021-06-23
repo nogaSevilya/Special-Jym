@@ -1,0 +1,120 @@
+.Jimi3
+{position: absolute;
+width: 82.91px;
+height: 69.59px;
+left: 252px;
+top: 112px;
+
+filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.15));
+}
+
+.text
+{/* נשמח לדעת איך לפנות אליך? */
+
+
+position: absolute;
+width: 218px;
+height: 78px;
+left: 16px;
+top: 118px;
+
+font-family: Arimo;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 29px;
+text-align: right;
+
+color: #313636;
+}
+
+.female
+{position: absolute;
+width: 98px;
+height: 224.66px;
+left: 242px;
+top: 291px;
+}
+
+.femaleNotChosen
+{position: absolute;
+width: 98px;
+height: 224.66px;
+left: 242px;
+top: 291px;
+opacity: 0.3;}
+
+
+.femaleText
+{/* בת */
+
+
+position: absolute;
+width: 62px;
+height: 41px;
+left: 260px;
+top: 516px;
+
+font-family: Arimo;
+font-style: normal;
+font-weight: bold;
+font-size: 35px;
+line-height: 40px;
+/* identical to box height */
+
+text-align: center;
+
+color: #000000;}
+
+.male
+{position: absolute;
+width: 90.88px;
+height: 217.94px;
+left: 66px;
+top: 291px;
+}
+
+.maleNotChosen
+{position: absolute;
+width: 90.88px;
+height: 217.94px;
+left: 66px;
+top: 291px;
+
+opacity: 0.3;}
+
+
+.maleText{/* בן */
+
+
+position: absolute;
+width: 62px;
+height: 41px;
+left: 80px;
+top: 516px;
+
+font-family: Arimo;
+font-style: normal;
+font-weight: bold;
+font-size: 35px;
+line-height: 40px;
+/* identical to box height */
+
+text-align: center;
+
+color: #000000;
+}
+
+.continueButton
+{position: absolute;
+width: 329px;
+height: 63px;
+left: 43px;
+top: 789px;
+
+opacity: 0.2;
+filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.15));
+}
+
+body
+{background: #E5E5E5;}

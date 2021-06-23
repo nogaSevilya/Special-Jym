@@ -1,0 +1,172 @@
+body
+{background: #E5E5E5;}
+
+.littleText
+{/* תונורחא תולאש יתש דוע */
+
+
+position: absolute;
+width: 334px;
+height: 23px;
+left: -19px;
+top: 126px;
+
+font-family: Arimo;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+/* identical to box height */
+
+text-align: center;
+
+color: #565959;
+}
+
+.question
+{/* ?לקשמה המ */
+
+
+position: absolute;
+width: 208px;
+height: 60px;
+left: 43px;
+top: 150px;
+
+font-family: Arimo;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 29px;
+text-align: right;
+
+color: #313636;
+}
+
+.dontWorry
+{/* רפסא אל ינא יגאדת לא */
+
+
+position: absolute;
+width: 207px;
+height: 23px;
+left: 40px;
+top: 184px;
+
+font-family: Arimo;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+/* identical to box height */
+
+text-align: right;
+
+color: #565959;}
+
+.Jimi
+{position: absolute;
+width: 82.91px;
+height: 69.59px;
+left: 272px;
+top: 118px;
+
+filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.15));}
+
+.kg
+{position: absolute;
+width: 123px;
+height: 56px;
+left: 223px;
+top: 266px;
+
+background: #7B6AD5;
+border-radius: 30px 0px 0px 30px;
+transform: rotate(-180deg);}
+
+.kgText
+{/* ג״ק */
+
+
+position: absolute;
+width: 99px;
+height: 40px;
+left: 223px;
+top: 266px;
+
+font-family: Arimo;
+font-style: normal;
+font-weight: normal;
+font-size: 35px;
+line-height: 40px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.pound
+{position: absolute;
+width: 123px;
+height: 56px;
+left: 108px;
+top: 266px;
+background: #FFFFFF;;
+border-radius: 30px 0px 0px 30px;
+}
+
+.poundText
+{/* דנואפ */
+
+
+position: absolute;
+width: 93px;
+height: 40px;
+left: 120px;
+top: 266px;
+
+font-family: Arimo;
+font-style: normal;
+font-weight: normal;
+font-size: 35px;
+line-height: 40px;
+text-align: center;
+
+color: #7B6AD5;
+
+opacity: 0.2;}
+
+.textbox
+{position: absolute;
+width: 293px;
+height: 30px;
+left: 62px;
+top: 416px;}
+
+.explanation
+{/* תונבל ליבשב בושח הזה עדימה ךליבשב תמאתומ תינכת */
+
+
+position: absolute;
+width: 414px;
+height: 46px;
+left: 0px;
+top: 707px;
+
+font-family: Arimo;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+
+color: #313636;
+}
+
+.nextQuestion
+{position: absolute;
+width: 329px;
+height: 63px;
+left: 43px;
+top: 789px;
+
+filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.15));}

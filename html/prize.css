@@ -1,0 +1,99 @@
+.text
+{/* !דובכה לכ הפל דע םתעגה */
+
+
+position: absolute;
+width: 354px;
+height: 80px;
+left: 33px;
+top: 66px;
+
+font-family: Arimo;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 34px;
+text-align: center;
+
+color: #313636;
+}
+
+.theFirstPrize
+{/* ןושארה סרפה */
+
+
+position: absolute;
+width: 264px;
+height: 34px;
+left: 78px;
+top: 186px;
+
+font-family: Arimo;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 34px;
+text-align: center;
+
+color: #19C3D0;}
+
+.square
+{position: absolute;
+width: 270px;
+height: 312px;
+left: 72px;
+top: 163px;
+
+background: #FFFFFF;
+border: 0.937153px solid #E5E1F7;
+box-sizing: border-box;
+box-shadow: 0px 1.87431px 5.62292px rgba(0, 0, 0, 0.15);
+border-radius: 15.9316px;}
+
+.heart
+{position: absolute;
+width: 168px;
+height: 168px;
+left: 123px;
+top: 235px;
+}
+
+.subText
+{/* ימיי׳גמ בל םתלביק */
+
+
+position: absolute;
+width: 163px;
+height: 31px;
+left: 127px;
+top: 418px;
+
+font-family: Arimo;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 31px;
+/* identical to box height */
+
+text-align: center;
+
+color: #000000;}
+
+.Jimi
+{position: absolute;
+width: 322px;
+height: 299px;
+left: 58px;
+top: 490px;}
+
+.continueButton
+{position: absolute;
+width: 329px;
+height: 63px;
+left: 45px;
+top: 789px;
+
+filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.15));}
+
+body
+{background: #E5E5E5;}

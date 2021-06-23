@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="questionnaire-workoutsPerWeek.css" />
+    <script>
+        selected=""
+        function chooseOnce()
+        {
+            if (document.getElementById("once").src.endsWith('onceAWeek.png'))
+            {
+                    document.getElementById("once").src=document.getElementById("once").src.replace('onceAWeek', 'onceAWeekPurple')
+                    document.getElementById("continue").style.opacity= "1"
+                    document.getElementById("twice").src=document.getElementById("twice").src.replace('twiceAWeekPurple', 'twiceAWeek')
+                    document.getElementById("threeTimes").src=document.getElementById("threeTimes").src.replace('threeTimeAWeekPurple', 'threeTimesAWeek')
+                    document.getElementById("neverExercise").src=document.getElementById("neverExercise").src.replace('neverExercisePurple', 'neverExercise')
+                    document.getElementById("xImage").src=document.getElementById("xImage").src.replace('xImageWhite', 'xImage')
+            }
+            selected="פעם בשבוע"
+        }
+        function chooseTwice()
+        {
+            if (document.getElementById("twice").src.endsWith('twiceAWeek.png'))
+            {
+                    document.getElementById("twice").src=document.getElementById("twice").src.replace('twiceAWeek', 'twiceAWeekPurple')
+                    document.getElementById("continue").style.opacity= "1"
+                    document.getElementById("once").src=document.getElementById("once").src.replace('onceAWeekPurple', 'onceAWeek')
+                    document.getElementById("threeTimes").src=document.getElementById("threeTimes").src.replace('threeTimesAWeekPurple', 'threeTimesAWeek')
+                    document.getElementById("neverExercise").src=document.getElementById("neverExercise").src.replace('neverExercisePurple', 'neverExercise')
+                    document.getElementById("xImage").src=document.getElementById("xImage").src.replace('xImageWhite', 'xImage')
+            }
+            selected="פעמיים בשבוע"
+        }
+        function chooseThreeTimes()
+        {
+            if (document.getElementById("threeTimes").src.endsWith('threeTimesAWeek.png'))
+            {
+                    document.getElementById("threeTimes").src=document.getElementById("threeTimes").src.replace('threeTimesAWeek', 'threeTimesAWeekPurple')
+                    document.getElementById("continue").style.opacity= "1"
+                    document.getElementById("twice").src=document.getElementById("twice").src.replace('twiceAWeekPurple', 'twiceAWeek')
+                    document.getElementById("once").src=document.getElementById("once").src.replace('onceAWeekPurple', 'onceAWeek')
+                    document.getElementById("neverExercise").src=document.getElementById("neverExercise").src.replace('neverExercisePurple', 'neverExercise')
+                    document.getElementById("xImage").src=document.getElementById("xImage").src.replace('xImageWhite', 'xImage')
+            }
+            selected="שלוש פעמים בשבוע או יותר"
+        }
+        function chooseNeverExercise()
+        {
+            if (document.getElementById("neverExercise").src.endsWith('neverExercise.png'))
+            {
+                    document.getElementById("neverExercise").src=document.getElementById("neverExercise").src.replace('neverExercise', 'neverExercisePurple')
+                    document.getElementById("continue").style.opacity= "1"
+                    document.getElementById("xImage").src=document.getElementById("xImage").src.replace('xImage', 'xImageWhite')
+                    document.getElementById("twice").src=document.getElementById("twice").src.replace('twiceAWeekPurple', 'twiceAWeek')
+                    document.getElementById("once").src=document.getElementById("once").src.replace('onceAWeekPurple', 'onceAWeek')
+                    document.getElementById("threeTimes").src=document.getElementById("threeTimes").src.replace('threeTimesAWeekPurple', 'threeTimesAWeek')
+            }
+            selected="לא מתאמן בכלל"
+        }
+        function nextScreen()
+        {
+            if (selected=="")
+            {
+                alert("בחר מספר אימונים בשבוע")
+            }
+            else
+            {
+                window.location.href="/selectWorkoutsPerWeek?workoutsPerWeek="+selected
+            }
+        }
+    </script>
+</head>
+<body>
+    <img src="images/Jimi3.png" class="Jimi3" />
+    <div class="text" >כמה פעמים את/ה עושה ספורט בשבוע?</div>
+    <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet'>
+    <img src="images/onceAWeek.png" id="once" class="once" onclick="chooseOnce();"/>
+    <img src="images/twiceAWeek.png" id="twice" class="twice" onclick="chooseTwice();"/>
+    <img src="images/threeTimesAWeek.png" id="threeTimes" class="threeTimes" onclick="chooseThreeTimes();"/>
+    <img src="images/neverExercise.png" id="neverExercise" class="neverExercise" onclick="chooseNeverExercise();"/>
+    <img src="images/xImage.png" id="xImage" class="xImage" />
+    <img src="images/continueButton2.png" id="continue" class="continue" onclick="nextScreen();"/>
+</body>
+</html>

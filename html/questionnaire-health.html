@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="questionnaire-health.css" />
+    <script src="questionnaire-health.js">
+
+    </script>
+</head>
+<body>
+
+    <div class="title" >שאלון רפואי</div>
+    <div class="subtitle" >!חשוב למלא על מנת להימנע מסיכונים</div>
+    <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet'>
+    <div class="question1" >?האם יש בעיות כרוניות</div>
+    <img src="images/littleJimi.png" class="Jimi" />
+    <div class="epilepsy" >אפילפסיה</div>
+    <div class="downSyndrom" >תסמונת דאון</div>
+    <div class="muscleDysmorphy" >מחלה ניוונית</div>
+    <div class="heartDesease" >בעיות לבביות</div>
+    <div class="noProblems" >לא, אין</div>
+    <img src="images/checkbox.png" class="checkbox1" id="checkbox1" onclick="markCheckbox1(this)"/>
+    <img src="images/checkbox.png" class="checkbox2" id="checkbox2" onclick="markCheckbox1(this)"/>
+    <img src="images/checkbox.png" class="checkbox3" id="checkbox3" onclick="markCheckbox1(this)"/>
+    <img src="images/checkbox.png" class="checkbox4" id="checkbox4" onclick="markCheckbox1(this)"/>
+    <img src="images/checkbox.png" class="checkbox5" id="checkbox5" onclick="markCheckbox1(this)"/>
+
+    <div class="question2" >?האם יש מגבלות בהליכה</div>
+    <img src="images/littleJimi.png" class="Jimi2" />
+    <div class="answer1" >הולכ/ת רק בדירה</div>
+    <div class="answer2" >הולכ/ת בסביבה הקרובה</div>
+    <div class="answer3" >יכול/ה ללכת מעל 20 דק' רצוף</div>
+    <div class="answer4" >לא יכול/ה ללכת</div>
+    <img src="images/checkbox.png" class="checkbox6" id="checkbox6" onclick="markCheckbox2(this)"/>
+    <img src="images/checkbox.png" class="checkbox7" id="checkbox7" onclick="markCheckbox2(this)"/>
+    <img src="images/checkbox.png" class="checkbox8" id="checkbox8" onclick="markCheckbox2(this)"/>
+    <img src="images/checkbox.png" class="checkbox9" id="checkbox9" onclick="markCheckbox2(this)"/>
+
+    <div class="question3" >?האם נפלת בשנה האחרונה</div>
+    <img src="images/littleJimi.png" class="Jimi3" />
+    <img src="images/yesButton.png" class="yesButton" id="yesButton" onclick="chooseYesOrNo(this)"/>
+    <img src="images/noButton.png" class="noButton" id="noButton" onclick="chooseYesOrNo(this)"/>
+
+
+    <div class="question4" >?כמה פעמים</div>
+    <select name = 'num' id = 'num' dir="rtl" class="multipleChoices" >
+        <option class="choose" selected disabled>בחר</option>
+        <option value = 'one'>פעם אחת</option>
+        <option value = 'two'>פעמיים או יותר</option>
+    </select>
+
+
+    <div class="question5" >?האם יש מגבלות בידיים</div>
+    <img src="images/littleJimi.png" class="Jimi4" />
+    <img src="images/checkbox.png" class="checkbox10" id="checkbox10" onclick="markCheckbox3(this)"/>
+    <img src="images/checkbox.png" class="checkbox11" id="checkbox11" onclick="markCheckbox3(this)"/>
+    <img src="images/checkbox.png" class="checkbox12" id="checkbox12" onclick="markCheckbox3(this)"/>
+    <div class="answer5" >שימוש בשתי הידיים ללא קושי</div>
+    <div class="answer6" >שימוש רק ביד אחת</div>
+    <div class="answer7" >בקושי רב נעשה שימוש בשתי הידיים</div>
+
+    <img src="images/finishHealthButton.png" class="finishButton" id="button" onclick="nextScreen()"/>
+
+</body>
+</html>

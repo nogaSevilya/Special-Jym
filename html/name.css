@@ -1,0 +1,46 @@
+body
+{background: #E5E5E5;}
+
+.text
+{/* ?ךמש המ */
+
+
+position: absolute;
+width: 327px;
+height: 262px;
+left: 35px;
+top: 286px;
+
+font-family: Arimo;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 33px;
+text-align: center;
+
+color: #313636;}
+
+.textbox
+{position: absolute;
+width: 293px;
+height: 30px;
+left: 62px;
+top: 416px;}
+
+.continue
+{position: absolute;
+width: 329px;
+height: 63px;
+left: 48px;
+top: 789px;
+
+filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.15));}
+
+.Jimi
+{position: absolute;
+width: 135.09px;
+height: 113.39px;
+left: 139px;
+top: 464px;
+
+filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.15));}

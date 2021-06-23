@@ -1,0 +1,264 @@
+body
+{background: #E5E5E5;}
+
+.top
+{position: absolute;
+width: 414px;
+height: 62px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);}
+
+.prizes
+{/* םיסרפ */
+
+
+position: absolute;
+width: 91px;
+height: 34px;
+left: 9px;
+top: 14px;
+
+font-family: Arimo;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 34px;
+text-align: center;
+
+color: #000000;
+}
+
+.specialLogo
+{position: absolute;
+width: 118.39px;
+height: 36.45px;
+left: 233px;
+top: 12px;
+}
+
+.line1
+{position: absolute;
+width: 32px;
+height: 0px;
+left: 369px;
+top: 19px;
+
+border: 4px solid #19C3D0;}
+
+.line2
+{position: absolute;
+width: 32px;
+height: 0px;
+left: 369px;
+top: 31px;
+
+border: 4px solid #19C3D0;}
+
+.line3
+{position: absolute;
+width: 32px;
+height: 0px;
+left: 369px;
+top: 43px;
+
+border: 4px solid #19C3D0;}
+
+.presentBox
+{position: absolute;
+width: 38px;
+height: 38px;
+left: 106px;
+top: 8px;
+}
+
+.text
+{/* ?ףסונ סרפ לבקל הצור */
+
+
+position: absolute;
+width: 405px;
+height: 32px;
+left: 5px;
+top: 143px;
+
+font-family: Arimo;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 29px;
+text-align: center;
+
+color: #000000;}
+
+.text2
+{/* ?םתנהנ םע עומשל חמשנ */
+
+
+position: absolute;
+width: 404px;
+height: 34px;
+left: 6px;
+top: 175px;
+
+font-family: Arimo;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 34px;
+text-align: center;
+
+color: #000000;}
+
+.Jimi
+{position: absolute;
+height: 178.05187651096773px;
+width: 136.5236332788512px;
+left: 140.3193359375px;
+top: 246.14215087890625px;
+border-radius: 0px;
+
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+transform: rotate(-6.37deg);
+}
+
+.bigSquare
+{position: absolute;
+height: 375.00000000000034px;
+width: 234.00001525878926px;
+left: 100px;
+top: 280px;
+border-radius: 15.931609153747559px;
+
+background: #FFFFFF;
+border: 0.937153px solid #E5E1F7;
+box-sizing: border-box;
+box-shadow: 0px 1.87431px 5.62292px rgba(0, 0, 0, 0.15);
+border-radius: 15.9316px;
+transform: rotate(90deg);
+}
+
+.text3
+{/* ןומיאה היה ךיא וגרד */
+
+
+position: absolute;
+width: 214px;
+height: 29px;
+left: 94px;
+top: 396px;
+
+font-family: Arimo;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 29px;
+/* identical to box height */
+
+text-align: right;
+
+color: #000000;
+}
+
+.redStar
+{position: absolute;
+height: 63.90626525878906px;
+width: 64.23670196533203px;
+left: 78.0009765625px;
+top: 444px;
+border-radius: 0px;
+}
+
+.yellowStar
+{position: absolute;
+height: 63.90626525878906px;
+width: 64.23670196533203px;
+left: 175.0009765625px;
+top: 444px;
+border-radius: 0px;
+}
+
+.greenStar
+{position: absolute;
+height: 63.90626525878906px;
+width: 64.23670196533203px;
+left: 276.0009765625px;
+top: 444px;
+border-radius: 0px;
+}
+
+.hard
+{/* השק */
+
+
+position: absolute;
+width: 54px;
+height: 29px;
+left: 80px;
+top: 518px;
+
+font-family: Arimo;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 29px;
+/* identical to box height */
+
+text-align: right;
+
+color: #7B6AD5;
+}
+
+.medium
+{/* ינוניב */
+
+
+position: absolute;
+width: 62px;
+height: 29px;
+left: 172px;
+top: 518px;
+
+font-family: Arimo;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 29px;
+/* identical to box height */
+
+text-align: right;
+
+color: #7B6AD5;}
+
+.easy
+{/* לק */
+
+
+position: absolute;
+width: 35px;
+height: 29px;
+left: 290px;
+top: 518px;
+
+font-family: Arimo;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 29px;
+/* identical to box height */
+
+text-align: right;
+
+color: #7B6AD5;}
+
+.finishButton
+{position: absolute;
+width: 329px;
+height: 63px;
+left: 43px;
+top: 789px;
+
+filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.15));
+}

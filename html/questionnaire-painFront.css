@@ -1,0 +1,208 @@
+body
+{background: #E5E5E5;}
+
+.text
+{/* ןומיאה תא ליחתנש ינפל */
+
+
+position: absolute;
+width: 253px;
+height: 23px;
+left: 9px;
+top: 102px;
+
+font-family: Arimo;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+/* identical to box height */
+
+text-align: right;
+
+color: #313636;}
+
+.text2
+{/* ?םויה והשמ ךל באוכ */
+
+
+position: absolute;
+width: 248px;
+height: 29px;
+left: 14px;
+top: 129px;
+
+font-family: Arimo;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 29px;
+/* identical to box height */
+
+text-align: right;
+
+color: #313636;}
+
+.Jimi
+{position: absolute;
+width: 82.91px;
+height: 69.59px;
+left: 272px;
+top: 94px;
+
+filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.15));}
+
+.frontButton
+{position: absolute;
+width: 123px;
+height: 56px;
+left: 215px;
+top: 184px;
+
+background: #9588DD;
+
+box-sizing: border-box;
+border-radius: 50px 0px 0px 50px;
+transform: rotate(-180deg);
+}
+
+.frontText
+{/* ג״ק */
+
+
+/* המידק */
+
+
+position: absolute;
+width: 99px;
+height: 40px;
+left: 221px;
+top: 190px;
+
+font-family: Arimo;
+font-style: normal;
+font-weight: normal;
+font-size: 35px;
+line-height: 40px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.backButton
+{position: absolute;
+width: 123px;
+height: 56px;
+left: 90px;
+top: 184px;
+
+background: #FFFFFF;;
+border-radius: 30px 0px 0px 30px;}
+
+.backText
+{/* הרוחא */
+
+
+position: absolute;
+width: 99px;
+height: 40px;
+left: 103px;
+top: 190px;
+
+font-family: Arimo;
+font-style: normal;
+font-weight: normal;
+font-size: 35px;
+line-height: 40px;
+text-align: center;
+
+color: #7B6AD5;
+
+opacity: 0.2;}
+
+.text3
+{/* באוכש קלחה לע וצחל ורבע באוכ אל םאו */
+
+
+position: absolute;
+width: 244px;
+height: 46px;
+left: 12px;
+top: 730.17px;
+
+font-family: Arimo;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+text-align: right;
+
+color: #313636;}
+
+.Jimi2
+{position: absolute;
+width: 57.09px;
+height: 47.92px;
+left: 276px;
+top: 729px;
+
+filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.15));}
+
+.next
+{position: absolute;
+width: 329px;
+height: 63px;
+left: 43px;
+top: 789px;
+
+filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.15));
+}
+
+.abs
+{position: absolute;
+width: 102px;
+height: 149px;
+left: 154px;
+top: 324px;
+}
+
+.head
+{position: absolute;
+width: 66px;
+height: 68px;
+left: 175px;
+top: 261px;
+
+}
+
+.rightHand
+{position: absolute;
+width: 62px;
+height: 190px;
+left: 256px;
+top: 324px;
+}
+
+.leftHand
+{position: absolute;
+width: 70px;
+height: 190px;
+left: 85px;
+top: 325px;
+}
+
+.leftLeg
+{position: absolute;
+width: 65px;
+height: 239px;
+left: 141px;
+top: 472px;
+}
+
+.rightLeg
+{position: absolute;
+width: 64px;
+height: 239px;
+left: 205px;
+top: 470px;
+}

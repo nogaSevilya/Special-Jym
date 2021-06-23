@@ -1,0 +1,610 @@
+.title
+{
+/* יאופר ןולאש */
+
+
+position: absolute;
+width: 398px;
+height: 40px;
+left: 8px;
+top: 37px;
+
+font-family: Arimo;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 34px;
+text-align: center;
+
+color: #7B6AD5;}
+
+.subtitle
+{/* !םינוכיסמ ענמיהל תנמ לע אלמל בושח */
+
+
+position: absolute;
+width: 366px;
+height: 23px;
+left: 23px;
+top: 77px;
+
+font-family: Arimo;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 23px;
+/* identical to box height */
+
+text-align: center;
+
+color: #313636;}
+
+.question1
+{/* ?תוינורכ תויעב שי םאה */
+
+
+position: absolute;
+width: 279px;
+height: 21px;
+left: 46px;
+top: 143px;
+
+font-family: Arimo;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 29px;
+text-align: right;
+
+color: #7B6AD5;
+}
+
+.Jimi
+{position: absolute;
+width: 59.08px;
+height: 49.59px;
+left: 340px;
+top: 129px;
+
+filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.15));}
+
+.epilepsy
+{/* .היספליפא */
+
+
+position: absolute;
+width: 149px;
+height: 40px;
+left: 186px;
+top: 195px;
+
+font-family: Arimo;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+text-align: right;
+
+color: #313636;}
+
+.downSyndrom
+{/* .ןואד תנומסת */
+
+
+position: absolute;
+width: 149px;
+height: 40px;
+left: 186px;
+top: 244px;
+
+font-family: Arimo;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+text-align: right;
+
+color: #313636;
+}
+
+.muscleDysmorphy
+{/* .תינווינ הלחמ */
+
+
+position: absolute;
+width: 132px;
+height: 24px;
+left: 203px;
+top: 293px;
+
+font-family: Arimo;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+text-align: right;
+
+color: #313636;}
+
+.heartDesease
+{/* .תויבבל תויעב */
+
+
+position: absolute;
+width: 144px;
+height: 24px;
+left: 191px;
+top: 343px;
+
+font-family: Arimo;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+text-align: right;
+
+color: #313636;
+}
+
+.noProblems
+{/* .ןיא ,אל */
+
+
+position: absolute;
+width: 144px;
+height: 24px;
+left: 191px;
+top: 391px;
+
+font-family: Arimo;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+text-align: right;
+
+color: #313636;}
+
+.checkbox1
+{position: absolute;
+width: 32px;
+height: 31px;
+left: 352px;
+top: 192px;}
+
+.checkbox2
+{position: absolute;
+width: 32px;
+height: 31px;
+left: 352px;
+top: 241px;}
+
+.checkbox3
+{position: absolute;
+width: 32px;
+height: 31px;
+left: 352px;
+top: 290px;
+}
+
+.checkbox4
+{position: absolute;
+width: 32px;
+height: 31px;
+left: 352px;
+top: 339px;
+}
+
+.checkbox5
+{position: absolute;
+width: 32px;
+height: 31px;
+left: 352px;
+top: 386px;}
+
+.question2
+{/* ?הכילהב תולבגמ שי םאה */
+
+
+position: absolute;
+width: 387px;
+height: 40px;
+left: -62px;
+top: 454px;
+
+font-family: Arimo;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 29px;
+text-align: right;
+
+color: #7B6AD5;
+}
+
+.Jimi2
+{position: absolute;
+width: 59.08px;
+height: 49.59px;
+left: 340px;
+top: 445px;
+
+filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.15));
+}
+
+.answer1
+{/* .הרזע אלל תכלוה ,רדסב לכה */
+
+
+position: absolute;
+width: 288px;
+height: 40px;
+left: 49px;
+top: 504px;
+
+font-family: Arimo;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+text-align: right;
+
+color: #313636;}
+
+.answer2
+{/* .הכילה לקמ / ןוכילהב תרזענ */
+
+
+position: absolute;
+width: 243px;
+height: 40px;
+left: 94px;
+top: 552px;
+
+font-family: Arimo;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+text-align: right;
+
+color: #313636;
+
+}
+
+.answer3
+{/* .אשד/לוח לע הביצי אל */
+
+
+position: absolute;
+width: 229px;
+height: 24px;
+left: 108px;
+top: 601px;
+
+font-family: Arimo;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+text-align: right;
+
+color: #313636;}
+
+.answer4
+{/* .תכלל הלוכי אל */
+
+
+position: absolute;
+width: 288px;
+height: 24px;
+left: 49px;
+top: 651px;
+
+font-family: Arimo;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+text-align: right;
+
+color: #313636;}
+
+.checkbox6
+{position: absolute;
+width: 32px;
+height: 31px;
+left: 352px;
+top: 499px;}
+
+.checkbox7
+{position: absolute;
+width: 32px;
+height: 31px;
+left: 352px;
+top: 548px;
+}
+
+.checkbox8
+{position: absolute;
+width: 32px;
+height: 31px;
+left: 352px;
+top: 597px;
+}
+
+.checkbox9
+{position: absolute;
+width: 32px;
+height: 31px;
+left: 352px;
+top: 646px;
+}
+
+.question3
+{/* ?הנורחאה הנשב תלפנ םאה */
+
+
+position: absolute;
+width: 312px;
+height: 28px;
+left: 22px;
+top: 720px;
+
+font-family: Arimo;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 29px;
+text-align: right;
+
+color: #7B6AD5;
+}
+
+.Jimi3
+{position: absolute;
+width: 59.08px;
+height: 49.59px;
+left: 340px;
+top: 711px;
+
+filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.15));}
+
+.yesButton
+{position: absolute;
+width: 130px;
+height: 49px;
+left: 221px;
+top: 768px;
+
+background: #FFFFFF;
+box-shadow: 0px 1.87431px 5.62292px rgba(0, 0, 0, 0.15);
+border-radius: 15.9316px;
+}
+
+.yesText
+{/* ןכ */
+
+
+position: absolute;
+width: 114px;
+height: 35px;
+left: 231px;
+top: 779px;
+
+font-family: Arimo;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 29px;
+text-align: center;
+
+color: #7B6AD5;}
+
+.noButton
+{position: absolute;
+width: 130px;
+height: 49px;
+left: 62px;
+top: 768px;
+
+background: #FFFFFF;
+border: 0.937153px solid #E5E1F7;
+box-sizing: border-box;
+box-shadow: 0px 1.87431px 5.62292px rgba(0, 0, 0, 0.15);
+border-radius: 15.9316px;
+}
+
+.noText
+{/* אל */
+
+
+position: absolute;
+width: 124px;
+height: 35px;
+left: 63px;
+top: 779px;
+
+font-family: Arimo;
+font-style: normal;
+font-weight: bold;
+font-size: 23.4288px;
+line-height: 27px;
+text-align: center;
+
+color: #7B6AD5;
+}
+
+.question4
+{/* ?םימעפ המכ */
+
+
+position: absolute;
+width: 127px;
+height: 28px;
+left: 234px;
+top: 853px;
+
+font-family: Arimo;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 23px;
+text-align: right;
+
+color: #7B6AD5;}
+
+.multipleChoices
+{position: absolute;
+width: 205px;
+height: 52px;
+left: 29px;
+top: 839px;
+font-family: Arimo;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 36px;
+text-align: right;
+
+color: #313636;
+background: #FFFFFF;
+border: 0.937153px solid #E5E1F7;
+box-sizing: border-box;
+box-shadow: 0px 1.87431px 5.62292px rgba(0, 0, 0, 0.15);
+border-radius: 10px;}
+
+.choose
+{font-family: Arimo;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+text-align: right;
+
+color: #BEBEBE;
+}
+
+.question5
+{/* ?םיידיב תולבגמ שי םאה */
+
+
+position: absolute;
+width: 387px;
+height: 40px;
+left: -64px;
+top: 936px;
+
+font-family: Arimo;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 29px;
+text-align: right;
+
+color: #7B6AD5;}
+
+.Jimi4
+{position: absolute;
+width: 59.08px;
+height: 49.59px;
+left: 340px;
+top: 924px;
+
+filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.15));}
+
+.answer5
+{/* .ישוק אלל םיידיה יתשב תשמתשמ */
+
+
+position: absolute;
+width: 288px;
+height: 40px;
+left: 49px;
+top: 986px;
+
+font-family: Arimo;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+text-align: right;
+
+color: #313636;
+}
+
+.answer6
+{/* .תאח דיב קר תשמתשמ */
+
+
+position: absolute;
+width: 243px;
+height: 27px;
+left: 94px;
+top: 1035px;
+
+font-family: Arimo;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+text-align: right;
+
+color: #313636;}
+
+.answer7
+{/* .םיידיב תשמתשמ בר ישוקב */
+
+
+position: absolute;
+width: 288px;
+height: 24px;
+left: 49px;
+top: 1087px;
+
+font-family: Arimo;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+text-align: right;
+
+color: #313636;
+}
+
+.checkbox10
+{position: absolute;
+width: 32px;
+height: 31px;
+left: 352px;
+top: 982px;
+}
+
+.checkbox11
+{position: absolute;
+width: 32px;
+height: 31px;
+left: 352px;
+top: 1031px;
+}
+
+.checkbox12
+{position: absolute;
+width: 32px;
+height: 31px;
+left: 352px;
+top: 1080px;
+}
+
+.finishButton
+{position: absolute;
+width: 329px;
+height: 63px;
+left: 57px;
+top: 1195px;
+
+opacity: 0.2;
+filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.15));}
+
+body
+{background: #E5E5E5;}

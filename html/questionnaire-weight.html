@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="questionnaire-weight.css" />
+    <script>
+        selected="kg"
+        function choosePound()
+        {
+            if (document.getElementById("pound").src.endsWith('whiteHalfCircleLeft.png'))
+            {
+                document.getElementById("pound").src=document.getElementById("pound").src.replace('whiteHalfCircleLeft', 'purpleHalfCircleLeft')
+                document.getElementById("kg").src=document.getElementById("kg").src.replace('purpleHalfCircleRight', 'whiteHalfCircleRight')
+                document.getElementById("poundText").style.color="#FFFFFF"
+                document.getElementById("poundText").style.opacity="1"
+                document.getElementById("kgText").style.color="#7B6AD5"
+                document.getElementById("kgText").style.opacity="0.3"
+                document.getElementById("pound").style.background= "#7B6AD5";
+                document.getElementById("kg").style.background= "#FFFFFF";
+            }
+            selected="pound"
+        }
+        function chooseKg()
+        {
+            if (document.getElementById("kg").src.endsWith('whiteHalfCircleRight.png'))
+            {
+                document.getElementById("pound").src=document.getElementById("pound").src.replace('purpleHalfCircleLeft', 'whiteHalfCircleLeft')
+                document.getElementById("kg").src=document.getElementById("kg").src.replace('whiteHalfCircleRight', 'purpleHalfCircleRight')
+                document.getElementById("poundText").style.color="#7B6AD5"
+                document.getElementById("poundText").style.opacity="0.3"
+                document.getElementById("kgText").style.color="#FFFFFF"
+                document.getElementById("kgText").style.opacity="1"
+                document.getElementById("pound").style.background= "#FFFFFF";
+                document.getElementById("kg").style.background= "#7B6AD5";
+            }
+            selected="kg"
+        }
+        function nextScreen()
+        {
+            if (document.getElementById("weight").value=="")            {
+                alert("בחר תשובה")
+            }
+            else
+            {
+                window.location.href="/selectWeight?weight="+document.getElementById("weight").value+"&selected="+selected
+            }
+        }
+    </script>
+</head>
+<body>
+    <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet'>
+    <div class="littleText" >עוד שתי שאלות אחרונות</div>
+    <img src="images/Jimi3.png" class="Jimi" />
+    <div class="question" >?מה המשקל שלך</div>
+    <div class="dontWorry" >אל דאגה, אני לא אספר</div>
+    <img src="images/purpleHalfCircleRight.png" id="kg" class="kg" onclick="chooseKg()"/>
+    <img src="images/whiteHalfCircleLeft.png" id="pound" class="pound" onclick="choosePound()"/>
+    <div class="kgText" id="kgText">ק"ג</div>
+    <div class="poundText" id="poundText">פאונד</div>
+
+    <form action="/selectWeight" method="post" enctype="multipart/form-data">
+        <input type="text" id="weight" name="text" class="textbox"><br><br>
+    </form>
+
+    <div class="explanation" >המידע הזה חשוב בשביל לבנות תכנית מותאמת בשבילך</div>
+
+    <img src="images/nextQuestion.png" class="nextQuestion" id="button" onclick="nextScreen()"/>
+</body>
+</html>

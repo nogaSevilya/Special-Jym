@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="name.css" />
+    <script>
+        function nextScreen()
+        {
+                window.location.href="/selectName?name="+document.getElementById("name").value
+        }
+    </script>
+</head>
+<body>
+    <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet'>
+    <div class="text" >?מה שמך</div>
+    <form action="/selectName" method="post" enctype="multipart/form-data">
+        <input type="text" id="name" name="text" class="textbox"><br><br>
+    </form>
+    <img src="images/littleJimi.png" class="Jimi" />
+    <img src="images/cont.png" class="continue" id="button" onclick="nextScreen();"/>
+
+
+</body>
+</html>

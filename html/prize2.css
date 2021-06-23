@@ -1,0 +1,101 @@
+body
+{background: #E5E5E5;}
+
+.text
+{/* ! שי ןולאשה תא םתמייס */
+
+
+position: absolute;
+width: 354px;
+height: 76px;
+left: 33px;
+top: 66px;
+
+font-family: Arimo;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 34px;
+text-align: center;
+
+color: #313636;}
+
+.square
+{position: absolute;
+width: 270px;
+height: 312px;
+left: 72px;
+top: 163px;
+
+background: #FFFFFF;
+border: 0.937153px solid #E5E1F7;
+box-sizing: border-box;
+box-shadow: 0px 1.87431px 5.62292px rgba(0, 0, 0, 0.15);
+border-radius: 15.9316px;
+}
+
+.title
+{/* ינשה סרפה */
+
+
+position: absolute;
+width: 264px;
+height: 34px;
+left: 78px;
+top: 186px;
+
+font-family: Arimo;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 34px;
+text-align: center;
+
+color: #19C3D0;}
+
+.clock
+{position: absolute;
+width: 240px;
+height: 109px;
+left: 95px;
+top: 265px;}
+
+.description
+{/* !ימיי׳גל ןועש */
+
+
+position: absolute;
+width: 163px;
+height: 31px;
+left: 127px;
+top: 418px;
+
+font-family: Arimo;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 31px;
+/* identical to box height */
+
+text-align: center;
+
+color: #000000;
+}
+
+.Jimi
+{position: absolute;
+width: 329px;
+height: 280px;
+left: 45px;
+top: 509px;
+}
+
+.continue
+{position: absolute;
+width: 329px;
+height: 63px;
+left: 45px;
+top: 789px;
+
+filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.15));
+}

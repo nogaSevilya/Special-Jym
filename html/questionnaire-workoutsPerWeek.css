@@ -1,0 +1,145 @@
+.Jimi3
+{position: absolute;
+width: 82.91px;
+height: 69.59px;
+left: 303px;
+top: 118px;
+
+filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.15));
+}
+
+.text
+{
+/* כמה פעמים את עושה ספורט בשבוע? */
+
+
+position: absolute;
+width: 297px;
+height: 86px;
+left: -15px;
+top: 126px;
+
+font-family: Arimo;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 29px;
+text-align: right;
+
+color: #313636;
+}
+
+.once
+{position: absolute;
+width: 320px;
+height: 63px;
+left: 52px;
+top: 273px;
+}
+
+.twice
+{position: absolute;
+width: 320px;
+height: 63px;
+left: 52px;
+top: 363px;
+}
+
+.threeTimes
+{position: absolute;
+width: 320px;
+height: 63px;
+left: 52px;
+top: 453px;
+}
+
+.neverExercise
+{position: absolute;
+width: 320px;
+height: 63px;
+left: 52px;
+top: 543px;}
+
+.continue
+{position: absolute;
+width: 329px;
+height: 63px;
+left: 43px;
+top: 789px;
+
+opacity: 0.2;
+filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.15));
+}
+
+.xImage
+{position: absolute;
+left: 315px;
+width: 19px;
+top: 566px;
+height: 19px;
+}
+
+.1
+{/* 1 */
+
+
+position: absolute;
+height: 40px;
+width: 38px;
+left: 306px;
+top: 282px;
+border-radius: nullpx;
+
+
+font-family: Open Sans Hebrew;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 41px;
+text-align: center;
+
+color: #7B6AD5;
+}
+
+.2
+{/* 2 */
+
+
+position: absolute;
+height: 40px;
+width: 38px;
+left: 306px;
+top: 373px;
+border-radius: nullpx;
+
+font-family: Open Sans Hebrew;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 41px;
+text-align: center;
+
+color: #7B6AD5;}
+
+.3
+{/* 3 */
+
+position: absolute;
+height: 40px;
+width: 38px;
+left: 306px;
+top: 464px;
+border-radius: nullpx;
+
+font-family: Open Sans Hebrew;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 41px;
+text-align: center;
+
+color: #7B6AD5;
+}
+
+body
+{background: #E5E5E5;}

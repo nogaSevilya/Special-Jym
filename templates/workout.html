@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="html/workout.css" />
+</head>
+<body>
+    {% for exercise in workout %}
+        <div> {{exercise}} </div>
+        {% for name in workout[exercise] %}
+            <div> {{name}} </div>
+        {% endfor %}
+    {% endfor %}
+    <a href="html/prize3.html"> <img src="html/images/continueButton2.png" class="next" /></a>
+</body>
+</html>

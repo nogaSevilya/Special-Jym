@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="questionnaire-sex.css" />
+    <script>
+        selected=""
+        function chooseFemale()
+        {
+            document.getElementById("female").style.opacity= "1"
+            document.getElementById("femaleText").style.opacity= "1"
+            document.getElementById("male").style.opacity= "0.3"
+            document.getElementById("maleText").style.opacity= "0.3"
+            document.getElementById("button").style.opacity= "1"
+            selected="אישה"
+        }
+        function chooseMale()
+        {
+            document.getElementById("male").style.opacity= "1"
+            document.getElementById("maleText").style.opacity= "1"
+            document.getElementById("female").style.opacity= "0.3"
+            document.getElementById("femaleText").style.opacity= "0.3"
+            document.getElementById("button").style.opacity= "1"
+            selected="גבר"
+        }
+        function nextScreen()
+        {
+            if (selected=="")
+            {
+                alert("בחר בן או בת")
+            }
+            else
+            {
+                window.location.href="/selectSex?sex="+selected
+            }
+        }
+    </script>
+</head>
+<body>
+    <img src="images/Jimi3.png" class="Jimi3" />
+    <div class="text" >נשמח לדעת איך לפנות אליך?</div>
+    <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet'>
+    <img src="images/female.png" id= "female" class="female" onclick="chooseFemale()"/>
+    <div id="femaleText" class="femaleText" >בת</div>
+    <img src="images/male.png" id="male" class="male" onclick="chooseMale()"/>
+    <div id="maleText"class="maleText" >בן</div>
+    <img src="images/continueButton2.png" id="button" class="continueButton" onclick="nextScreen()"/>
+</body>
+</html>

@@ -1,0 +1,12 @@
+body
+{background: #E5E5E5;}
+
+.next
+{position: absolute;
+width: 329px;
+height: 63px;
+left: 43px;
+top: 1250px;
+
+filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.15));
+}
